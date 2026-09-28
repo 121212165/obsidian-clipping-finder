@@ -20,6 +20,8 @@ module.exports = class ClippingFinderPlugin extends Plugin {
       callback: () => new FinderModal(this).open(),
     });
 
+    this.addRibbonIcon("search", "方法论检索", () => new FinderModal(this).open());
+
     this.addSettingTab(new FinderSettingTab(this.app, this));
   }
 

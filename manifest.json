@@ -1,7 +1,7 @@
 {
   "id": "clipping-finder",
   "name": "Clipping Finder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.4.0",
   "description": "Search your web clippings and methodology notes by keyword, then insert a link or the matching passage at the cursor.",
   "author": "121212165",
